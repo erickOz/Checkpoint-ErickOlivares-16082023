@@ -1,0 +1,50 @@
+  512  git branch
+  513  git checkout feature
+  514  git status
+  515  git branch feature
+  516  git branch main
+  517  git checkout -b feature
+  518  git branch
+  519  git checkout main
+  520  git checkout master
+  521  git checkout -b main
+  522  git status
+  523  git branch
+  524  git checkout feature
+  525  git status
+  526  git add .
+  527  git commit -m "commit 01 de ErickOlivares"
+  528  git push origin main
+  529  git branch
+  530  git checkout -b feature
+  531  git branch
+  532  mkdir Hardware
+  533  mkdir Software
+  534  mkdir SeguridadInformatica
+  535  ls -la
+  536  cd Hardware/
+  537  touch resument.txt
+  538  cd ..
+  539  cd Software/
+  540  touch resumen.txt
+  541  cd ..
+  542  cd SeguridadInformatica/
+  543  touch resumen.txt
+  544  cd ..
+  545  git status
+  546  git add .
+  547  git commit -m "commit 02 de ErickOlivares"
+  548  git push origin feature
+  549  git checkout main
+  550  git status
+  551  ls -la
+  552  mv main.js resumenHardware.txt
+  553  mv index.html resumenSoftware.txt
+  554  ls -la
+  555  echo "1. Figma"
+  556  echo "1. Figma 2. Microsoft Word 3. Google Ads Editor" > resumenSoftware.txt
+  557  cat resumenSoftware.txt 
+  558  echo "1. ROM 2. RAM 3. Caché" > resumenHardware.txt
+  559  cat resumenHardware.txt 
+  560  ls -la
+  561  history 50 > comandos.txt
